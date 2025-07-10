@@ -1,0 +1,32 @@
+body {
+    background-color: #ecf0f5;
+}
+
+.plot-container, .table-container, .model-details-container, .jumbotron, .card {
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.plot-container, .table-container, .model-details-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.model-details-container {
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+#file_info {
+    font-style: italic;
+    color: #555;
+    padding-left: 1rem;
+}
+
+.jumbotron {
+    background-color: #fff;
+    padding: 30px;
+}
